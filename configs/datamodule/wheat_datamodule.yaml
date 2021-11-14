@@ -1,0 +1,9 @@
+_target_: src.datamodules.wheat_datamodule.WheatDetDataModule
+
+root_dir: ${data_dir}train/train/ # data_dir is specified in config.yaml
+csv_file: ${data_dir}train/train.csv
+batch_size: 64
+test_percentage: 0.20
+num_workers: 0
+pin_memory: False
+shuffle: True

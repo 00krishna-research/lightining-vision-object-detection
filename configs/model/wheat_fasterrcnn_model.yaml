@@ -1,0 +1,5 @@
+_target_: src.models.wheat_fasterrcnn_model.FasterRCNN
+
+n_classes: 2
+lr: 0.001
+weight_decay: 0.0005
